@@ -56,7 +56,11 @@ Railsを使用したアプリケーションで次の要件を満たすDB設計�
           "quantity": $数量,
           "logical_quantity": $指定日時点の予定フリー在庫数,
       }
-  ]
+  ],
+  "pagination": {
+    page: $ページ番号,
+    limit: 50,
+  }
 }
 ```
 
